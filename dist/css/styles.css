@@ -1,0 +1,38 @@
+body {
+  font-family: Tahoma;
+  background-color: gray;
+  line-height: 2em;
+}
+.primary-text {
+  color: rgba(0, 0, 255, 0.555);
+}
+.btn,
+.primary-btn {
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 10px;
+}
+.primary-btn {
+  background: rgba(0, 0, 255, 0.555);
+  color: black;
+}
+ul#menu li {
+  padding: 10px 0;
+  background-color: #80ff80;
+}
+ul#menu li a {
+  color: green;
+  text-decoration: none;
+}
+ul#menu li a:hover {
+  color: black;
+}
+.bordered {
+  border-top: dotted 1px black;
+  border-bottom: solid 2px black;
+}
+h1,
+h3 {
+  border-top: dotted 1px black;
+  border-bottom: solid 2px black;
+}
